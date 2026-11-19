@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3ECEA;
+    font-family: Palatino Linotype, Palatino, Book Antiqua, Georgia, serif;
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #EFB3AB;
+}
+nav a {
+  font-size: 20px;
+  display: inline-flex;
+  color: rgb(181, 61, 61);
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+
+color:#57413e;
+
+}
+
+footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    background-color: #EFB3AB;
+}
+
+footer a{
+  font-size: 20px;
+  display: inline-flex;
+  color: white;
+  padding: 40px 40px;
+  text-decoration: none;
+}
+
+footer a:hover {
+
+color:#57413e;
+
+}
+
+.cartao{
+    background-color: #EFB3AB;
+    width: 600px;
+    height:300px;
+    margin: 15px;
+    border: 5px solid rgb(161, 83, 83);
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.banner{
+
+    background-image: url("assets/imgs/banner2.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+    width:100%;
+    height: 600px;
+
+}
